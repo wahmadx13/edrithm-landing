@@ -1,0 +1,385 @@
+{
+  "Navbar": {
+    "login": "لاگ ان"
+  },
+  "Auth": {
+    "welcomeBack": "خوش آمدید",
+    "loginSub": "اپنے ادارے کے انتظام کے لیے اپنے ڈیش بورڈ تک رسائی حاصل کریں۔",
+    "email": "ای میل ایڈریس",
+    "password": "پاس ورڈ",
+    "forgotPassword": "بھول گئے؟",
+    "loginButton": "لاگ ان",
+    "or": "یا",
+    "continueWithGoogle": "گوگل کے ساتھ جاری رکھیں",
+    "newToEdrithm": "EdRithm پر نئے ہیں؟",
+    "createAccount": "اکاؤنٹ بنائیں",
+    "createAccountTitle": "اپنا اکاؤنٹ بنائیں",
+    "signupSub": "Edrithm کے ساتھ اپنے ادارے کا انتظام شروع کریں",
+    "adminName": "ایڈمن کا نام",
+    "confirmPassword": "پاس ورڈ کی تصدیق کریں",
+    "phoneOptional": "فون نمبر (اختیاری)",
+    "alreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟",
+    "signupWithGoogle": "گوگل کے ساتھ سائن اپ کریں",
+    "passwordRequired": "لازمی",
+    "allRightsReserved": "© {year} EDRITHM OPS. تمام حقوق محفوظ ہیں۔",
+    "support": "سپورٹ",
+    "privacy": "رازداری",
+    "terms": "شرائط",
+    "privacyPolicy": "رازداری کی پالیسی",
+    "termsOfService": "خدمات کی شرائط",
+    "builtFor": "© {year} EDRITHM OPS. BUILT FOR THE LUMINESCENT ARCHITECT.",
+    "PasswordStrength": {
+      "tooShort": "بہت چھوٹا",
+      "tooShortDetail": "کم از کم 6 حروف",
+      "weak": "کمزور",
+      "weakDetail": "بڑے اور چھوٹے حروف کا مجموعہ استعمال کریں",
+      "fair": "مناسب",
+      "fairDetail": "حفاظت کے لیے ایک ہندسہ شامل کریں",
+      "good": "اچھا",
+      "goodDetail": "ایک خصوصی علامت شامل کریں",
+      "strong": "مضبوط",
+      "strongDetail": "آپ کا پاس ورڈ محفوظ ہے"
+    },
+    "resetPasswordTitle": "اپنا پاس ورڈ ری سیٹ کریں",
+    "resetPasswordSub": "ری سیٹ کی ہدایات حاصل کرنے کے لیے اپنا ای میل درج کریں",
+    "sendResetLink": "ری سیٹ لنک بھیجیں",
+    "backToLogin": "لاگ ان پر واپس جائیں",
+    "governance": "گورننس",
+    "systemStatusOptimal": "سسٹم کی حیثیت: بہترین",
+    "secureAES": "محفوظ 256-بٹ AES"
+  },
+  "Landing": {
+    "Hero": {
+      "tagline": "اگلی نسل کا تعلیمی کنٹرول",
+      "titlePart1": "مکمل کنٹرول۔",
+      "titlePart2": "بغیر کسی",
+      "titlePart3": "پیچیدگی کے۔",
+      "description": "اپنے ادارے کو دنیا کے سب سے زیادہ بدیہی اسکول مینجمنٹ سسٹم کے ساتھ بااختیار بنائیں۔ ایک متحد، مستقبل کے ڈیش بورڈ میں حاضری، گریڈ بُکس، اور والدین کے ساتھ رابطوں کو خودکار بنائیں۔",
+      "ctaDemo": "ڈیمو کی درخواست کریں",
+      "ctaCompare": "سسٹمز کا موازنہ کریں",
+      "noSetupFees": "کوئی سیٹ اپ فیس نہیں",
+      "noItOverhead": "کوئی آئی ٹی اوور ہیڈ نہیں"
+    },
+    "OperationalComplexity": {
+      "tagline": "آپریشنل انٹیلی جنس",
+      "titlePart1": "آپریشنل پیچیدگی",
+      "titlePart2": "آپ کی سوچ سے",
+      "titlePart3": "زیادہ مہنگی",
+      "titlePart4": "ہے۔",
+      "description": "جدید اسکول ٹولز کی کمی سے نہیں بلکہ ٹولز کی زیادتی سے پریشان ہیں۔",
+      "card1Title": "ٹولز کی بھرمار",
+      "card1Badge": "70٪ غیر استعمال شدہ ماڈیولز",
+      "card1Quote": "روزانہ صرف 10 میں سے 3 ماڈیولز فعال طور پر استعمال ہوتے ہیں۔",
+      "card2Title": "عمل کی رفتار کا تجزیہ",
+      "card2Phase": "انٹیگریشن کا مرحلہ",
+      "card2Warning": "دستی مداخلت درکار ہے",
+      "card3Title": "رکاوٹوں کی لاگت",
+      "card3Description": "چھپے ہوئے تکنیکی قرض اور دستی ہم آہنگی کے اخراجات اکثر لائسنس فیس سے",
+      "card3Multiplier": "3.5 گنا زیادہ ہوتے ہیں۔",
+      "maintenance": "دیکھ بھال",
+      "subscription": "سبسکرپشن",
+      "evolutionTagline": "ارتقاء",
+      "evolutionTitle": "اب وقت آگیا ہے کہ پیچیدگی کو وضاحت میں بدلا جائے۔",
+      "seeSolution": "حل دیکھیں"
+    },
+    "Intelligence": {
+      "tagline": "وضاحت کی ذہانت",
+      "titlePart1": "آپریشنل وضاحت۔",
+      "titlePart2": "کے لیے ڈیزائن کیا گیا",
+      "description": "انتظامی رگڑ کی دھند کو ختم کریں۔ ہمارا تجزیاتی مجموعہ آپ کی تنظیم کے ہر پہلو میں ریئل ٹائم ویزیبلٹی فراہم کرتا ہے۔",
+      "enrollmentTitle": "اندراج",
+      "enrollmentGradient": "کم مراحل میں",
+      "enrollmentDescription": "آسان ڈیجیٹل ورک فلو جو عملے اور والدین دونوں کے لیے رگڑ کو کم کرتے ہیں۔ ایک متحد 3-مرحلہ پائپ لائن میں ڈیٹا جمع کرنے اور تصدیق کو خودکار بنائیں۔",
+      "exploreWorkflows": "ورک فلو دریافت کریں",
+      "collect": "جمع کریں",
+      "verify": "تصدیق کریں",
+      "confirm": "تصدیق کریں",
+      "occupancyTagline": "موجودہ قبضہ",
+      "occupancyValue": "84%",
+      "occupancyLabel": "قبضہ",
+      "liveFeed": "براہ راست فیڈ",
+      "capacityTitle": "صلاحیت کی",
+      "capacityGradient": "ویزیبلٹی",
+      "capacityDescription": "کلاس کے استعمال اور وسائل کی تقسیم کے بارے ਵਿੱਚ فوری بصیرت۔ پیشن گوئی کے رجحان کے تجزیہ کے ساتھ متعدد مقامات پر قبضے کی شرح کی نگرانی کریں۔",
+      "viewCapacitySuite": "صلاحیت کا مجموعہ دیکھیں",
+      "attendanceTitle": "حاضری کی",
+      "attendanceGradient": "شفافیت",
+      "attendanceDescription": "خودکار چیک ان اور والدین کے لیے ریئل ٹائم اطلاعات۔ صفر دستی اوور ہیڈ اور فوری رپورٹنگ ٹولز کے ساتھ بہترین ریکارڈ برقرار رکھیں۔",
+      "analyzeMetrics": "میٹرکس کا تجزیہ کریں",
+      "dailyRate": "روزانہ کی شرح",
+      "baseline": "بنیادی لائن",
+      "stable": "مستحکم"
+    },
+    "Philosophy": {
+      "tagline": "فلسفہ انٹیلیجنس",
+      "titlePart1": "کا ایک مختلف فلسفہ",
+      "titlePart2": "سکول مینجمنٹ۔",
+      "description": "پرانی رگڑ سے دور رہیں۔ ایک ایسا سسٹم آزمائیں جو وضاحت، رفتار اور جدید انتظامی عمدگی کے لیے ڈیزائن کیا گیا ہے۔",
+      "legacyLabel": "پرانا طریقہ",
+      "legacySubLabel": "روایتی تعلیمی نظام",
+      "newStandardLabel": "نیا معیار",
+      "newStandardSubLabel": "ہمارا پلیٹ فارم",
+      "cards": {
+        "legacy": [
+          {
+            "title": "آئی ٹی انحصار",
+            "description": "آن سائٹ سرور کی دیکھ بھال اور خصوصی آئی ٹی عملے کی ضرورت ہے۔"
+          },
+          {
+            "title": "معاہدے",
+            "description": "پیچیدہ پوشیدہ فیسوں کے ساتھ کئی سالہ معاہدے۔"
+          },
+          {
+            "title": "پیچیدگی",
+            "description": "سیکھنے کا مشکل عمل جس کے لیے ہفتوں کی پیشہ ورانہ تربیت درکار ہوتی ہے۔"
+          },
+          {
+            "title": "رفتار",
+            "description": "پرانا کوڈ سست لوڈنگ اور بار بار بندش کا نتیجہ بنتا ہے۔"
+          },
+          {
+            "title": "انضمام",
+            "description": "الگ تھلگ ڈیٹا۔ بنیادی رپورٹنگ کے لیے دستی برآمدات ضروری ہیں۔"
+          }
+        ],
+        "new": [
+          {
+            "title": "زیرو مینٹیننس",
+            "description": "مکمل کلاؤڈ انفراسٹرکچر۔ اپ ڈیٹس سرور کو چھوئے بغیر ریئل ٹائم میں ہوتی ہیں۔"
+          },
+          {
+            "title": "مکمل آزادی",
+            "description": "لچکدار ماہانہ بلنگ۔ بغیر کسی ہارڈ ویئر کے لاک ان کے شفاف قیمتیں۔"
+          },
+          {
+            "title": "بدیہی یوزر انٹرفیس",
+            "description": "انتظامی آسانی کے لیے ڈیزائن کیا گیا ہے۔ اپنی ٹیم کو ایک گھنٹے سے بھی کم وقت میں شامل کریں۔"
+          },
+          {
+            "title": "فوری عمل درآمد",
+            "description": "تقسیم شدہ ایج کمپیوٹنگ کے ذریعے عالمی سطح پر سیکنڈ سے بھی کم وقت میں جواب۔"
+          },
+          {
+            "title": "متحد کور",
+            "description": "اوپن اے پی آئی آرکیٹیکچر۔ آپ کے موجودہ ماحولیاتی نظام کے ساتھ فوری طور پر جڑ جاتا ہے۔"
+          }
+        ]
+      },
+      "ctaTitle": "طاقتور کا مطلب ضروری نہیں کہ",
+      "ctaComplement": "پیچیدہ ہو۔",
+      "ctaButton": "فرق کا تجربہ کریں",
+      "securityAssurance": "اعلیٰ قابل اعتماد انتظامی سیکیورٹی کی ضمانت"
+    },
+    "Pricing": {
+      "tagline": "قیمتوں کی انٹیلیجنس",
+      "titlePart1": "آسان،",
+      "titlePart2": "شفاف قیمتیں۔",
+      "description": "اپنے ادارے کے لیے بہترین پلان منتخب کریں۔ کوئی پوشیدہ فیس نہیں، کوئی پیچیدہ درجات نہیں۔ ساس مینجمنٹ کی اگلی نسل کا تجربہ کریں۔",
+      "mostPopular": "سب سے مقبول",
+      "perMonth": "/ماہ",
+      "plans": {
+        "starter": {
+          "name": "سٹارٹر",
+          "price": "49 ڈالر",
+          "description": "ان چھوٹے اداروں کے لیے بہترین جو اپنا ڈیجیٹل سفر شروع کر رہے ہیں۔",
+          "features": ["100 طلباء تک", "معیاری ڈیش بورڈز", "حاضری سے باخبر رہنا", "ای میل سپورٹ"],
+          "buttonText": "مفت شروع کریں"
+        },
+        "professional": {
+          "name": "پروفیشنل",
+          "price": "99 ڈالر",
+          "description": "بڑھتے ہوئے تعلیمی کیمپس کے لیے جدید خصوصیات۔",
+          "features": [
+            "500 طلباء تک",
+            "اے آئی انرولمنٹ بصیرت",
+            "ملٹی برانچ سپورٹ",
+            "ترجیحی چیٹ سپورٹ"
+          ],
+          "buttonText": "شروع کریں"
+        },
+        "enterprise": {
+          "name": "انٹرپرائز",
+          "price": "کسٹم",
+          "description": "بڑے پیمانے پر ادارہ جاتی نیٹ ورکس کے لیے مکمل کنٹرول۔",
+          "features": [
+            "لامحدود طلباء",
+            "مکمل اے آئی پیشن گوئی سوٹ",
+            "کسٹم اے پی آئی تک رسائی",
+            "سرشار اکاؤنٹ منیجر"
+          ],
+          "buttonText": "سیلز سے رابطہ کریں"
+        }
+      }
+    }
+  },
+  "Statuses": {
+    "approved": "منظور شدہ",
+    "pending": "زیر التواء",
+    "rejected": "مسترد شدہ",
+    "active": "فعال",
+    "waitlisted": "ویٹنگ لسٹ",
+    "underReview": "زیر غور",
+    "inProgress": "جاری ہے"
+  },
+  "Dashboard": {
+    "breadcrumb": "ادارہ جاتی تجزیات / ڈیش بورڈ",
+    "titlePrefix": "ایگزیکٹو",
+    "titleSuffix": "سنیپ شاٹ",
+    "academicYear": "تعلیمی سال {year}",
+    "liveReport": "براہ راست رپورٹ",
+    "healthSummaryTitle": "ادارے کی صحت کا خلاصہ",
+    "healthSummaryDesc": "ادارے کی مجموعی کارکردگی <status/> ہے۔ اس سہ ماہی میں طلباء کا اندراج تخمینوں سے 12.4 فیصد زیادہ رہا ہے، جبکہ حاضری 94 فیصد پر مستحکم ہے۔ مالیاتی لیکویڈیٹی مضبوط ہے اور فیس کی وصولی گزشتہ سیشن کے مقابلے میں 8 فیصد زیادہ ہے۔",
+    "healthStatus": "بہترین",
+    "viewInsights": "تفصیلی بصیرت دیکھیں",
+    "metrics": {
+      "studentEngagement": "طلباء کی مصروفیت",
+      "teacherPerformance": "اساتذہ کی کارکردگی",
+      "attendanceConsistency": "حاضری میں تسلسل",
+      "curriculumProgress": "نصاب کی پیشرفت",
+      "totalStudents": "کل طلباء",
+      "newEnrollments": "نئے داخلے",
+      "attendanceRate": "حاضری کی شرح",
+      "feeCollection": "فیس کی وصولی",
+      "outstandingDues": "بقایا جات",
+      "monthlyExpenses": "ماہانہ اخراجات",
+      "activeStaff": "فعال عملہ",
+      "yoyGrowth": "سالانہ اضافہ"
+    },
+    "metricStatus": {
+      "exceptional": "غیر معمولی",
+      "onTrack": "ٹریک پر",
+      "stable": "مستحکم",
+      "onTarget": "نشانے پر",
+      "high": "زیادہ",
+      "optimal": "بہترین"
+    }
+  },
+  "Students": {
+    "title": "طلباء کا انتظام",
+    "subtitle": "موجودہ طلباء، حاضری اور تعلیمی حیثیت کا جائزہ",
+    "enrolButton": "طالب علم کا اندراج کریں",
+    "stats": {
+      "total": "کل طلباء",
+      "attendance": "حاضری",
+      "newEnrolled": "نئے داخلہ",
+      "onLeave": "چھٹی پر"
+    },
+    "searchPlaceholder": "نام، طالب علم کی آئی ڈی، یا گریڈ کے ذریعے تلاش کریں...",
+    "filters": {
+      "status": "حیثیت: {value}",
+      "grade": "گریڈ: {value}",
+      "all": "تمام"
+    },
+    "table": {
+      "headers": {
+        "studentInfo": "طالب علم کی معلومات",
+        "gradeClass": "گریڈ / کلاس",
+        "status": "حیثیت",
+        "admitted": "داخلہ ہوا",
+        "process": "عمل"
+      },
+      "capacity": {
+        "seatsLeft": "نشستیں باقی ہیں",
+        "limited": "محدود نشستیں",
+        "full": "مکمل بک شدہ"
+      }
+    },
+    "details": {
+      "title": "طالب علم کی تفصیلات",
+      "currentGrade": "موجودہ گریڈ",
+      "session": "سیشن",
+      "morning": "صبح",
+      "parentGuardian": "والدین / سرپرست",
+      "dossier": "ڈوزیئر کی تصدیق",
+      "verified": "تصدیق شدہ",
+      "pending": "زیر التواء",
+      "history": "تعلیمی تاریخ",
+      "confirmEnroll": "دوبارہ اندراج کی تصدیق کریں",
+      "archive": "پروفائل آرکائیو کریں"
+    }
+  },
+  "Sidebar": {
+    "campus": "کیمپس",
+    "students": {
+      "main": "طلباء",
+      "directory": "سٹوڈنٹ ڈائریکٹری",
+      "attendance": "حاضری",
+      "performance": "کارکردگی"
+    },
+    "teachers": {
+      "main": "اساتذہ اور عملہ",
+      "directory": "ٹیچر ڈائریکٹری",
+      "staffDirectory": "سٹاف ڈائریکٹری",
+      "attendance": "حاضری",
+      "reviews": "کارکردگی کا جائزہ",
+      "salary": "تنخواہ کی ٹریکنگ",
+      "receipts": "رسیدیں اپ لوڈ کریں"
+    },
+    "academics": {
+      "main": "تعلیمی امور",
+      "classes": "کلاسیں اور سیکشنز",
+      "subjects": "مضامین",
+      "timetable": "ٹائم ٹیبل",
+      "exams": "امتحانات",
+      "results": "نتائج",
+      "planner": "نصاب کا منصوبہ ساز"
+    },
+    "finance": {
+      "main": "مالیات",
+      "fees": "فیس کا ریکارڈ",
+      "dues": "بقایا جات کی ٹریکنگ",
+      "expenses": "اخراجات کی ٹریکنگ",
+      "scholarships": "سکالرشپس / رعایت",
+      "summary": "مالی خلاصہ"
+    },
+    "reports": {
+      "main": "رپورٹس",
+      "students": "طلباء کی رپورٹس",
+      "academics": "تعلیمی رپورٹس",
+      "finance": "مالی رپورٹس",
+      "staff": "عملے کی رپورٹس",
+      "custom": "کسٹم رپورٹس",
+      "analytics": "تجزیاتی ڈیش بورڈ"
+    },
+    "communication": {
+      "main": "رابطہ کاری",
+      "announcements": "اعلانات",
+      "notices": "نوٹسز",
+      "messages": "میسجنگ لاگز",
+      "logs": "ای میل / ایس ایم ایس لاگز"
+    },
+    "branches": {
+      "main": "برانچ مینجمنٹ",
+      "list": "برانچ لسٹ",
+      "kpis": "برانچ کے پی آئیز",
+      "comparison": "برانچوں کا موازنہ"
+    },
+    "administration": {
+      "main": "انتظامیہ",
+      "roles": "کردار اور اجازتیں",
+      "settings": "ترتیبات",
+      "audit": "آڈٹ لاگز",
+      "data": "ڈیٹا امپورٹ / ایکسپورٹ",
+      "integrations": "انٹیگریشنز"
+    },
+    "profile": {
+      "myProfile": "میری پروفائل",
+      "settings": "ترتیبات",
+      "logout": "لاگ آؤٹ"
+    },
+    "quickActions": {
+      "title": "فوری اقدامات",
+      "addStudent": "طالب علم شامل کریں",
+      "addTeacher": "ٹیچر شامل کریں",
+      "recordFee": "فیس ریکارڈ کریں",
+      "createAnnouncement": "اعلان بنائیں"
+    }
+  },
+  "BulkActions": {
+    "selected": "{count} منتخب",
+    "approve": "منظور کریں",
+    "reject": "مسترد کریں",
+    "email": "ای میل",
+    "exportPdf": "پی ڈی ایف ایکسپورٹ کریں"
+  }
+}

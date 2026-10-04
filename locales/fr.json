@@ -1,0 +1,390 @@
+{
+  "Navbar": {
+    "login": "Connexion"
+  },
+  "Auth": {
+    "welcomeBack": "Bon retour",
+    "loginSub": "Accédez à votre tableau de bord pour gérer votre institution.",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "forgotPassword": "Oublié?",
+    "loginButton": "Se connecter",
+    "or": "OU",
+    "continueWithGoogle": "Continuer avec Google",
+    "newToEdrithm": "Nouveau sur EdRithm?",
+    "createAccount": "Créer un compte",
+    "createAccountTitle": "Créez votre compte",
+    "signupSub": "Commencez à gérer votre institution avec Edrithm",
+    "adminName": "Nom de l'administrateur",
+    "confirmPassword": "Confirmer le mot de passe",
+    "phoneOptional": "Numéro de téléphone (facultatif)",
+    "alreadyHaveAccount": "Vous avez déjà un compte?",
+    "signupWithGoogle": "S'inscrire avec Google",
+    "passwordRequired": "Requis",
+    "allRightsReserved": "© {year} EDRITHM OPS. TOUS DROITS RÉSERVÉS.",
+    "support": "Assistance",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "builtFor": "© {year} EDRITHM OPS. BUILT FOR THE LUMINESCENT ARCHITECT.",
+    "PasswordStrength": {
+      "tooShort": "Trop court",
+      "tooShortDetail": "Minimum 6 caractères",
+      "weak": "Faible",
+      "weakDetail": "Mélangez majuscules et minuscules",
+      "fair": "Moyen",
+      "fairDetail": "Ajoutez un chiffre pour plus de sécurité",
+      "good": "Bon",
+      "goodDetail": "Ajoutez un caractère spécial",
+      "strong": "Fort",
+      "strongDetail": "Votre mot de passe est sécurisé"
+    },
+    "resetPasswordTitle": "Réinitialisez votre mot de passe",
+    "resetPasswordSub": "Entrez votre e-mail pour recevoir les instructions de réinitialisation",
+    "sendResetLink": "Envoyer le lien de réinitialisation",
+    "backToLogin": "Retour à la connexion",
+    "governance": "Gouvernance",
+    "systemStatusOptimal": "ÉTAT DU SYSTÈME: OPTIMAL",
+    "secureAES": "SÉCURISÉ AES 256 BITS"
+  },
+  "Landing": {
+    "Hero": {
+      "tagline": "Contrôle éducatif nouvelle génération",
+      "titlePart1": "Tout le contrôle.",
+      "titlePart2": "Aucune",
+      "titlePart3": "complexité.",
+      "description": "Donnez à votre institution le système de gestion scolaire le plus intuitif au monde. Automatisez les présences, les carnets de notes et les communications avec les parents dans un tableau de bord unique et futuriste.",
+      "ctaDemo": "Demander une démo",
+      "ctaCompare": "Comparer les systèmes",
+      "noSetupFees": "Pas de frais de configuration",
+      "noItOverhead": "Pas de surcharge informatique"
+    },
+    "OperationalComplexity": {
+      "tagline": "Intelligence opérationnelle",
+      "titlePart1": "La complexité opérationnelle est",
+      "titlePart2": "plus",
+      "titlePart3": "coûteuse",
+      "titlePart4": "que vous ne le pensez.",
+      "description": "Les écoles modernes ne souffrent pas du manque d'outils — elles souffrent de la surcharge d'outils.",
+      "card1Title": "Prolifération des outils",
+      "card1Badge": "70% de modules fantômes",
+      "card1Quote": "Seuls 3 modules sur 10 sont utilisés quotidiennement.",
+      "card2Title": "Analyse de la vélocité des processus",
+      "card2Phase": "Phase d'intégration",
+      "card2Warning": "Intervention manuelle requise",
+      "card3Title": "Coût de la friction",
+      "card3Description": "La dette technique cachée et les coûts de coordination manuelle dépassent souvent les frais de licence de",
+      "card3Multiplier": "3,5x.",
+      "maintenance": "Maintenance",
+      "subscription": "Abonnement",
+      "evolutionTagline": "L'Évolution",
+      "evolutionTitle": "Il est temps d'échanger la complexité contre la clarté.",
+      "seeSolution": "Voir la solution"
+    },
+    "Intelligence": {
+      "tagline": "Intelligence de clarté",
+      "titlePart1": "Conçu pour la",
+      "titlePart2": "clarté opérationnelle.",
+      "description": "Éliminez le brouillard de la friction administrative. Notre suite analytique offre une visibilité en temps réel sur toutes les facettes de votre organisation.",
+      "enrollmentTitle": "Inscription en",
+      "enrollmentGradient": "moins d'étapes",
+      "enrollmentDescription": "Des flux de travail numériques simplifiés qui réduisent la friction pour le personnel et les parents. Automatisez la collecte et la vérification des données dans un pipeline unifié en 3 étapes.",
+      "exploreWorkflows": "Explorer les flux de travail",
+      "collect": "Collecter",
+      "verify": "Vérifier",
+      "confirm": "Confirmer",
+      "occupancyTagline": "Occupation actuelle",
+      "occupancyValue": "84%",
+      "occupancyLabel": "Occupation",
+      "liveFeed": "Flux en direct",
+      "capacityTitle": "Visibilité de la",
+      "capacityGradient": "capacité",
+      "capacityDescription": "Aperçu instantané de l'utilisation des classes et de l'allocation des ressources. Surveillez les taux d'occupation sur plusieurs sites avec une analyse prédictive des tendances.",
+      "viewCapacitySuite": "Voir la suite de capacité",
+      "attendanceTitle": "Transparence des",
+      "attendanceGradient": "présences",
+      "attendanceDescription": "Enregistrements automatisés et notifications en temps réel aux parents. Maintenez des dossiers parfaits avec zéro surcharge manuelle et des outils de rapport instantanés.",
+      "analyzeMetrics": "Analyser les métriques",
+      "dailyRate": "Taux quotidien",
+      "baseline": "Base de référence",
+      "stable": "STABLE"
+    },
+    "Philosophy": {
+      "tagline": "Intelligence de la philosophie",
+      "titlePart1": "Une philosophie différente de la",
+      "titlePart2": "gestion scolaire.",
+      "description": "Éloignez-vous de la friction héritée. Découvrez un système conçu pour la clarté, la vitesse et l'excellence administrative moderne.",
+      "legacyLabel": "Approche héritée",
+      "legacySubLabel": "Systèmes scolaires traditionnels",
+      "newStandardLabel": "Le nouveau standard",
+      "newStandardSubLabel": "Notre plateforme",
+      "cards": {
+        "legacy": [
+          {
+            "title": "Dépendance informatique",
+            "description": "Nécessite une maintenance logicielle dédiée sur site et un personnel informatique spécialisé."
+          },
+          {
+            "title": "Contrats",
+            "description": "Accords verrouillés sur plusieurs années avec des frais cachés complexes."
+          },
+          {
+            "title": "Complexité",
+            "description": "Courbe d'apprentissage abrupte nécessitant des semaines de formation professionnelle."
+          },
+          {
+            "title": "Vitesse",
+            "description": "La base de code héritée entraîne des temps de chargement lents et des temps d'arrêt fréquents."
+          },
+          {
+            "title": "Intégration",
+            "description": "Données cloisonnées. Exportations manuelles requises pour les rapports de base."
+          }
+        ],
+        "new": [
+          {
+            "title": "Zéro maintenance",
+            "description": "Infrastructure cloud complète. Les mises à jour se font en temps réel sans toucher à un serveur."
+          },
+          {
+            "title": "Liberté totale",
+            "description": "Facturation mensuelle flexible. Tarification transparente sans verrouillage matériel."
+          },
+          {
+            "title": "Interface intuitive",
+            "description": "Conçue pour la facilité administrative. Intégrez votre équipe en moins d'une heure."
+          },
+          {
+            "title": "Exécution instantanée",
+            "description": "Temps de réponse inférieurs à la seconde grâce à l'informatique de pointe distribuée."
+          },
+          {
+            "title": "Noyau unifié",
+            "description": "Architecture API ouverte. Se connecte instantanément à votre écosystème existant."
+          }
+        ]
+      },
+      "ctaTitle": "Puissant ne veut pas forcément dire",
+      "ctaComplement": "compliqué.",
+      "ctaButton": "Découvrez la différence",
+      "securityAssurance": "Sécurité administrative de haute confiance garantie"
+    },
+    "Pricing": {
+      "tagline": "Intelligence tarifaire",
+      "titlePart1": "Une tarification",
+      "titlePart2": "simple et transparente.",
+      "description": "Choisissez le plan parfait pour votre institution. Pas de frais cachés, pas de niveaux complexes. Découvrez la prochaine génération de gestion SaaS.",
+      "mostPopular": "Le plus populaire",
+      "perMonth": "/mois",
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "price": "49 $",
+          "description": "Parfait pour les petits instituts commençant leur voyage numérique.",
+          "features": [
+            "Jusqu'à 100 étudiants",
+            "Tableaux de bord standards",
+            "Suivi des présences",
+            "Assistance par e-mail"
+          ],
+          "buttonText": "Commencer gratuitement"
+        },
+        "professional": {
+          "name": "Professionnel",
+          "price": "99 $",
+          "description": "Fonctionnalités avancées pour les campus éducatifs en pleine croissance.",
+          "features": [
+            "Jusqu'à 500 étudiants",
+            "Aperçus d'inscription IA",
+            "Prise en charge multi-agences",
+            "Assistance prioritaire par chat"
+          ],
+          "buttonText": "Démarrer"
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "price": "Sur mesure",
+          "description": "Contrôle complet pour les grands réseaux institutionnels.",
+          "features": [
+            "Étudiants illimités",
+            "Suite complète de prédiction IA",
+            "Accès API personnalisé",
+            "Gestionnaire de compte dédié"
+          ],
+          "buttonText": "Contacter les ventes"
+        }
+      }
+    }
+  },
+  "Statuses": {
+    "approved": "Approuvé",
+    "pending": "En attente",
+    "rejected": "Rejeté",
+    "active": "Actif",
+    "waitlisted": "Liste d'attente",
+    "underReview": "En cours de révision",
+    "inProgress": "En cours"
+  },
+  "Dashboard": {
+    "breadcrumb": "Analytique Institutionnelle / Tableau de bord",
+    "titlePrefix": "Aperçu",
+    "titleSuffix": "Exécutif",
+    "academicYear": "Année académique {year}",
+    "liveReport": "Rapport en direct",
+    "healthSummaryTitle": "Résumé de la santé de l'institution",
+    "healthSummaryDesc": "La performance institutionnelle globale est <status/>. Les inscriptions ont dépassé les projections, tandis que l'assiduité reste stable.",
+    "healthStatus": "Optimale",
+    "viewInsights": "Voir les détails",
+    "metrics": {
+      "studentEngagement": "Engagement des étudiants",
+      "teacherPerformance": "Performance des enseignants",
+      "attendanceConsistency": "Cohérence de l'assiduité",
+      "curriculumProgress": "Progrès du curriculum",
+      "totalStudents": "Total des étudiants",
+      "newEnrollments": "Nouvelles inscriptions",
+      "attendanceRate": "Taux d'assiduité",
+      "feeCollection": "Collecte des frais",
+      "outstandingDues": "Cotisations impayées",
+      "monthlyExpenses": "Dépenses mensuelles",
+      "activeStaff": "Personnel actif",
+      "yoyGrowth": "Croissance annuelle"
+    },
+    "metricStatus": {
+      "exceptional": "Exceptionnel",
+      "onTrack": "Sur la bonne voie",
+      "stable": "Stable",
+      "onTarget": "Atteint",
+      "high": "Élevé",
+      "optimal": "Optimal"
+    }
+  },
+  "Students": {
+    "title": "Gestion des Étudiants",
+    "subtitle": "Aperçu général de la population étudiante",
+    "enrolButton": "Inscrire un étudiant",
+    "stats": {
+      "total": "Total Étudiants",
+      "attendance": "Assiduité",
+      "newEnrolled": "Nouveaux Inscrits",
+      "onLeave": "En Congé"
+    },
+    "searchPlaceholder": "Rechercher par nom, ID ou classe...",
+    "filters": {
+      "status": "Statut: {value}",
+      "grade": "Classe: {value}",
+      "all": "Tous"
+    },
+    "table": {
+      "headers": {
+        "studentInfo": "Infos Étudiant",
+        "gradeClass": "Classe / Niveau",
+        "status": "Statut",
+        "admitted": "Admis le",
+        "process": "Processus"
+      },
+      "capacity": {
+        "seatsLeft": "Places restantes",
+        "limited": "Places limitées",
+        "full": "Complet"
+      }
+    },
+    "details": {
+      "title": "Détails de l'étudiant",
+      "currentGrade": "Classe actuelle",
+      "session": "Session",
+      "morning": "Matin",
+      "parentGuardian": "Parent / Tuteur",
+      "dossier": "Vérification du dossier",
+      "verified": "Vérifié",
+      "pending": "En attente",
+      "history": "Historique académique",
+      "confirmEnroll": "Confirmer la réinscription",
+      "archive": "Archiver le profil"
+    }
+  },
+  "Sidebar": {
+    "campus": "Campus",
+    "students": {
+      "main": "Étudiants",
+      "directory": "Répertoire Étudiant",
+      "attendance": "Présences",
+      "performance": "Performance"
+    },
+    "teachers": {
+      "main": "Enseignants & Staff",
+      "directory": "Répertoire Enseignants",
+      "staffDirectory": "Répertoire Staff",
+      "attendance": "Présences",
+      "reviews": "Évaluations",
+      "salary": "Suivi des salaires",
+      "receipts": "Justificatifs"
+    },
+    "academics": {
+      "main": "Académique",
+      "classes": "Classes & Sections",
+      "subjects": "Matières",
+      "timetable": "Emploi du temps",
+      "exams": "Examens",
+      "results": "Résultats",
+      "planner": "Planificateur"
+    },
+    "finance": {
+      "main": "Finance",
+      "fees": "Dossiers de frais",
+      "dues": "Suivi des dettes",
+      "expenses": "Suivi des dépenses",
+      "scholarships": "Bourses / Remises",
+      "summary": "Résumé financier"
+    },
+    "reports": {
+      "main": "Rapports",
+      "students": "Rapports Étudiants",
+      "academics": "Rapports Académiques",
+      "finance": "Rapports Financiers",
+      "staff": "Rapports Staff",
+      "custom": "Rapports Personnalisés",
+      "analytics": "Tableau de bord analytique"
+    },
+    "communication": {
+      "main": "Communication",
+      "announcements": "Annonces",
+      "notices": "Avis",
+      "messages": "Logs de messagerie",
+      "logs": "Logs Email/SMS"
+    },
+    "branches": {
+      "main": "Gestion des succursales",
+      "list": "Liste des succursales",
+      "kpis": "KPI des succursales",
+      "comparison": "Comparaison"
+    },
+    "administration": {
+      "main": "Administration",
+      "roles": "Rôles & Permissions",
+      "settings": "Paramètres",
+      "audit": "Logs d'audit",
+      "data": "Import/Export",
+      "integrations": "Intégations"
+    },
+    "profile": {
+      "myProfile": "Mon Profil",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
+    },
+    "quickActions": {
+      "title": "Actions Rapides",
+      "addStudent": "Ajouter Étudiant",
+      "addTeacher": "Ajouter Enseignant",
+      "recordFee": "Enregistrer Frais",
+      "createAnnouncement": "Créer Annonce"
+    }
+  },
+  "BulkActions": {
+    "selected": "{count} Sélectionnés",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "email": "E-mail",
+    "exportPdf": "Exporter PDF"
+  }
+}

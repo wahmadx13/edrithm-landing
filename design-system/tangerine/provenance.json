@@ -1,0 +1,16 @@
+{
+  "source": "Tangerine approved design source; migrated from design/system/tangerine",
+  "role": "pinned snapshot from edrithm-frontend",
+  "files": {
+    "tokens.json": "e945e13ad29472f0cde3af63faf91019c9220d96bd5c4c34d9d5155490ca9dbb",
+    "tokens.resolved.json": "311b6e8835dd295d2ff348348a22c194c29795f747601e60077a197bf3b9243b",
+    "tokens.ts": "8bce448c3e5cd34e38403a4dd259ef5309f19a2544a42c6c893124ba82774a04",
+    "tokens.css": "a335f5b83b81cff02f4bc5590611e7e4a3341e8df57954054ec3aa84580c17d0",
+    "build.mjs": "734aa086d0f5cdbddd53e1a6424d35dad23669d4a8e87bd4b4b29e6e2157197f",
+    "check.mjs": "ddf9f58df077635154df752b1f6c0013d577a40c64e03229b5766c5f5c25f3d4",
+    "TOKENS.md": "bfa1efaa44a212fd90a5db6d204e56ec93bdac5956d39883f6719cf055fcc6f5"
+  },
+  "adaptations": [
+    "check.mjs preserves compiler regressions; original design-document link and component inventory checks stay in the local design desk."
+  ]
+}

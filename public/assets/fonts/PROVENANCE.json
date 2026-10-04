@@ -1,0 +1,16 @@
+{
+  "source": "Inherited unchanged from the institutional web prototype; original download version was not recorded.",
+  "upstream": "https://design.ubuntu.com/font",
+  "license": "Ubuntu Font Licence 1.0",
+  "licenseSource": "https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt",
+  "files": {
+    "Ubuntu-Bold.ttf": "6dbcce3fdd846f3aebc7e1890b5ccca234806cbd84763785f7ced043a99e8268",
+    "Ubuntu-BoldItalic.ttf": "ba949bb981880e6b78002f9d026474e87138b3015266867383399c319d9a8ab6",
+    "Ubuntu-Italic.ttf": "fac23c3966f8714a75646cca73d643da6bd86e9cd8d00f020d3c2349685af08b",
+    "Ubuntu-Light.ttf": "e3e72639577a39aaeb68d977e310814d5b021163825b23e067b37334a4bf142a",
+    "Ubuntu-LightItalic.ttf": "84897878ca4534dd0bf9a0a9387d3c729eeacfdf1eb80a206105ab6629e087ff",
+    "Ubuntu-Medium.ttf": "0d685f51c3bc394f02c8c218565ba423972cfb35c2542871e0a4ac0c3a0c16a6",
+    "Ubuntu-MediumItalic.ttf": "6dcb2e48671a166bf56064f4062912b7ad41a2fdf2960efceb0242dbf37ca54b",
+    "Ubuntu-Regular.ttf": "540f19be11a368130641d00ec1c354b535c0803560f598d7d062486c9278387a"
+  }
+}

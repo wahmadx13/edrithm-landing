@@ -1,0 +1,390 @@
+{
+  "Navbar": {
+    "login": "Login"
+  },
+  "Auth": {
+    "welcomeBack": "Welcome Back",
+    "loginSub": "Access your dashboard to manage your institution.",
+    "email": "Email Address",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Login",
+    "or": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "newToEdrithm": "New to EdRithm?",
+    "createAccount": "Create account",
+    "createAccountTitle": "Create your account",
+    "signupSub": "Start managing your institution with Edrithm",
+    "adminName": "Admin Name",
+    "confirmPassword": "Confirm Password",
+    "phoneOptional": "Phone Number (Optional)",
+    "alreadyHaveAccount": "Already have an account?",
+    "signupWithGoogle": "Sign up with Google",
+    "passwordRequired": "Required",
+    "allRightsReserved": "© {year} EDRITHM OPS. ALL RIGHTS RESERVED.",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "builtFor": "© {year} EDRITHM OPS. BUILT FOR THE LUMINESCENT ARCHITECT.",
+    "PasswordStrength": {
+      "tooShort": "Too short",
+      "tooShortDetail": "Minimum 6 characters",
+      "weak": "Weak",
+      "weakDetail": "Mix uppercase and lowercase characters",
+      "fair": "Fair",
+      "fairDetail": "Add a number for security",
+      "good": "Good",
+      "goodDetail": "Add a special character",
+      "strong": "Strong",
+      "strongDetail": "Your password is secure"
+    },
+    "resetPasswordTitle": "Reset your password",
+    "resetPasswordSub": "Enter your email to receive reset instructions",
+    "sendResetLink": "Send Reset Link",
+    "backToLogin": "Back to login",
+    "governance": "Governance",
+    "systemStatusOptimal": "SYSTEM STATUS: OPTIMAL",
+    "secureAES": "SECURE 256-BIT AES"
+  },
+  "Landing": {
+    "Hero": {
+      "tagline": "Next Gen Education Control",
+      "titlePart1": "All the Control.",
+      "titlePart2": "None of the",
+      "titlePart3": "Complexity.",
+      "description": "Empower your institution with the world's most intuitive school management system. Automate attendance, gradebooks, and parent comms in one unified, futuristic dashboard.",
+      "ctaDemo": "Request a Demo",
+      "ctaCompare": "Compare Systems",
+      "noSetupFees": "No setup fees",
+      "noItOverhead": "No IT overhead"
+    },
+    "OperationalComplexity": {
+      "tagline": "Operational Intelligence",
+      "titlePart1": "Operational Complexity Is",
+      "titlePart2": "More",
+      "titlePart3": "Expensive",
+      "titlePart4": "Than You Think.",
+      "description": "Modern schools don't struggle from lack of tools — they struggle from tool overload.",
+      "card1Title": "Tool Proliferation",
+      "card1Badge": "70% Ghost Modules",
+      "card1Quote": "Only 3/10 modules are actively used daily.",
+      "card2Title": "Process Velocity Analysis",
+      "card2Phase": "Integration Phase",
+      "card2Warning": "Manual Intervention Required",
+      "card3Title": "Cost of Friction",
+      "card3Description": "Hidden technical debt and manual coordination costs often exceed the license fee by",
+      "card3Multiplier": "3.5x.",
+      "maintenance": "Maintenance",
+      "subscription": "Subscription",
+      "evolutionTagline": "The Evolution",
+      "evolutionTitle": "It's time to trade complexity for clarity.",
+      "seeSolution": "See the Solution"
+    },
+    "Intelligence": {
+      "tagline": "Clarity Intelligence",
+      "titlePart1": "Designed for",
+      "titlePart2": "Operational Clarity.",
+      "description": "Eliminate the fog of administrative friction. Our analytical suite provides real-time visibility into every facet of your organization.",
+      "enrollmentTitle": "Enrollment in",
+      "enrollmentGradient": "Fewer Steps",
+      "enrollmentDescription": "Streamlined digital workflows that reduce friction for both staff and parents. Automate data collection and verification in a unified 3-step pipeline.",
+      "exploreWorkflows": "Explore Workflows",
+      "collect": "Collect",
+      "verify": "Verify",
+      "confirm": "Confirm",
+      "occupancyTagline": "Current Occupancy",
+      "occupancyValue": "84%",
+      "occupancyLabel": "Occupancy",
+      "liveFeed": "Live Feed",
+      "capacityTitle": "Capacity",
+      "capacityGradient": "Visibility",
+      "capacityDescription": "Instant insights into class utilization and resource allocation. Monitor occupancy rates across multiple locations with predictive trend analysis.",
+      "viewCapacitySuite": "View Capacity Suite",
+      "attendanceTitle": "Attendance",
+      "attendanceGradient": "Transparency",
+      "attendanceDescription": "Automated check-ins and real-time parent notifications. Maintain perfect records with zero manual overhead and instant reporting tools.",
+      "analyzeMetrics": "Analyze Metrics",
+      "dailyRate": "Daily Rate",
+      "baseline": "Baseline",
+      "stable": "STABLE"
+    },
+    "Philosophy": {
+      "tagline": "Philosophy Intelligence",
+      "titlePart1": "A Different Philosophy of",
+      "titlePart2": "School Management.",
+      "description": "Move away from legacy friction. Experience a system designed for clarity, speed, and modern administrative excellence.",
+      "legacyLabel": "Legacy Approach",
+      "legacySubLabel": "Traditional School Systems",
+      "newStandardLabel": "The New Standard",
+      "newStandardSubLabel": "Our Platform",
+      "cards": {
+        "legacy": [
+          {
+            "title": "IT Dependency",
+            "description": "Requires dedicated on-site server maintenance and specialized IT staff."
+          },
+          {
+            "title": "Contracts",
+            "description": "Multi-year locked-in agreements with complex hidden fees."
+          },
+          {
+            "title": "Complexity",
+            "description": "Steep learning curve requiring weeks of professional training."
+          },
+          {
+            "title": "Speed",
+            "description": "Legacy codebase results in slow load times and frequent downtime."
+          },
+          {
+            "title": "Integration",
+            "description": "Siloed data. Manual exports required for basic reporting."
+          }
+        ],
+        "new": [
+          {
+            "title": "Zero Maintenance",
+            "description": "Full cloud infrastructure. Updates happen in real-time without touching a server."
+          },
+          {
+            "title": "Total freedom",
+            "description": "Flexible monthly billing. Transparent pricing with no hardware lock-in."
+          },
+          {
+            "title": "Intuitive UI",
+            "description": "Designed for administrative ease. Onboard your team in under an hour."
+          },
+          {
+            "title": "Instant Execution",
+            "description": "Sub-second response times globally via distributed edge computing."
+          },
+          {
+            "title": "Unified Core",
+            "description": "Open API architecture. Connects instantly with your existing ecosystem."
+          }
+        ]
+      },
+      "ctaTitle": "Powerful doesn’t have to mean",
+      "ctaComplement": "complicated.",
+      "ctaButton": "Experience the Difference",
+      "securityAssurance": "High-Trust Administrative Security Guaranteed"
+    },
+    "Pricing": {
+      "tagline": "Pricing Intelligence",
+      "titlePart1": "Simple,",
+      "titlePart2": "Transparent Pricing.",
+      "description": "Choose the perfect plan for your institution. No hidden fees, no complex tiers. Experience the next generation of SaaS management.",
+      "mostPopular": "Most Popular",
+      "perMonth": "/mo",
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "price": "$49",
+          "description": "Perfect for small institutes starting their digital journey.",
+          "features": [
+            "Up to 100 Students",
+            "Standard Dashboards",
+            "Attendance Tracking",
+            "Email Support"
+          ],
+          "buttonText": "Start for Free"
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "$99",
+          "description": "Advanced features for growing educational campuses.",
+          "features": [
+            "Up to 500 Students",
+            "AI Enrollment Insights",
+            "Multi-Branch Support",
+            "Priority Chat Support"
+          ],
+          "buttonText": "Get Started"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Complete control for large-scale institutional networks.",
+          "features": [
+            "Unlimited Students",
+            "Full AI Prediction Suite",
+            "Custom API Access",
+            "Dedicated account manager"
+          ],
+          "buttonText": "Contact Sales"
+        }
+      }
+    }
+  },
+  "Statuses": {
+    "approved": "Approved",
+    "pending": "Pending",
+    "rejected": "Rejected",
+    "active": "Active",
+    "waitlisted": "Waitlisted",
+    "underReview": "Under Review",
+    "inProgress": "In Progress"
+  },
+  "Dashboard": {
+    "breadcrumb": "Institutional Analytics / Dashboard",
+    "titlePrefix": "Executive",
+    "titleSuffix": "Snapshot",
+    "academicYear": "Academic Year {year}",
+    "liveReport": "Live Report",
+    "healthSummaryTitle": "Institution Health Summary",
+    "healthSummaryDesc": "Overall institutional performance is <status/>. Student enrollment has exceeded projections by 12.4% this quarter, while attendance remains stable at 94%. Financial liquidity is strong with fee collections trending 8% higher than previous session.",
+    "healthStatus": "Optimal",
+    "viewInsights": "View Detailed Insights",
+    "metrics": {
+      "studentEngagement": "Student Engagement",
+      "teacherPerformance": "Teacher Performance",
+      "attendanceConsistency": "Attendance Consistency",
+      "curriculumProgress": "Curriculum Progress",
+      "totalStudents": "Total Students",
+      "newEnrollments": "New Enrollments",
+      "attendanceRate": "Attendance Rate",
+      "feeCollection": "Fee Collection",
+      "outstandingDues": "Outstanding Dues",
+      "monthlyExpenses": "Monthly Expenses",
+      "activeStaff": "Active Staff",
+      "yoyGrowth": "YoY Growth"
+    },
+    "metricStatus": {
+      "exceptional": "Exceptional",
+      "onTrack": "On Track",
+      "stable": "Stable",
+      "onTarget": "On Target",
+      "high": "High",
+      "optimal": "Optimal"
+    }
+  },
+  "Students": {
+    "title": "Student Management",
+    "subtitle": "Overview of current student body, attendance, and academic standing",
+    "enrolButton": "Enrol Student",
+    "stats": {
+      "total": "Total Students",
+      "attendance": "Attendance",
+      "newEnrolled": "New Enrolled",
+      "onLeave": "On Leave"
+    },
+    "searchPlaceholder": "Search by name, student ID, or grade...",
+    "filters": {
+      "status": "Status: {value}",
+      "grade": "Grade: {value}",
+      "all": "All"
+    },
+    "table": {
+      "headers": {
+        "studentInfo": "Student Info",
+        "gradeClass": "Grade / Class",
+        "status": "Status",
+        "admitted": "Admitted",
+        "process": "Process"
+      },
+      "capacity": {
+        "seatsLeft": "Seats Left",
+        "limited": "Limited Seats",
+        "full": "Fully Booked"
+      }
+    },
+    "details": {
+      "title": "Student Details",
+      "currentGrade": "Current Grade",
+      "session": "Session",
+      "morning": "Morning",
+      "parentGuardian": "Parent / Guardian",
+      "dossier": "Dossier Verification",
+      "verified": "Verified",
+      "pending": "Pending",
+      "history": "Academic History",
+      "confirmEnroll": "Confirm Re-Enrollment",
+      "archive": "Archive Profile"
+    }
+  },
+  "Sidebar": {
+    "campus": "Campus",
+    "students": {
+      "main": "Students",
+      "directory": "Student Directory",
+      "attendance": "Attendance",
+      "performance": "Performance"
+    },
+    "teachers": {
+      "main": "Teachers & Staff",
+      "directory": "Teacher Directory",
+      "staffDirectory": "Staff Directory",
+      "attendance": "Attendance",
+      "reviews": "Performance Reviews",
+      "salary": "Salary Tracking",
+      "receipts": "Receipt Uploads"
+    },
+    "academics": {
+      "main": "Academics",
+      "classes": "Classes & Sections",
+      "subjects": "Subjects",
+      "timetable": "Timetable",
+      "exams": "Exams",
+      "results": "Results",
+      "planner": "Curriculum Planner"
+    },
+    "finance": {
+      "main": "Finance",
+      "fees": "Fee Records",
+      "dues": "Dues Tracking",
+      "expenses": "Expense Tracking",
+      "scholarships": "Scholarships / Discounts",
+      "summary": "Financial Summary"
+    },
+    "reports": {
+      "main": "Reports",
+      "students": "Student Reports",
+      "academics": "Academic Reports",
+      "finance": "Financial Reports",
+      "staff": "Staff Reports",
+      "custom": "Custom Reports",
+      "analytics": "Analytics Dashboard"
+    },
+    "communication": {
+      "main": "Communication",
+      "announcements": "Announcements",
+      "notices": "Notices",
+      "messages": "Messaging Logs",
+      "logs": "Email/SMS Logs"
+    },
+    "branches": {
+      "main": "Branch Management",
+      "list": "Branch List",
+      "kpis": "Branch KPIs",
+      "comparison": "Branch Comparison"
+    },
+    "administration": {
+      "main": "Administration",
+      "roles": "Roles & Permissions",
+      "settings": "Settings",
+      "audit": "Audit Logs",
+      "data": "Data Import/Export",
+      "integrations": "Integrations"
+    },
+    "profile": {
+      "myProfile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addStudent": "Add Student",
+      "addTeacher": "Add Teacher",
+      "recordFee": "Record Fee",
+      "createAnnouncement": "Create Announcement"
+    }
+  },
+  "BulkActions": {
+    "selected": "{count} Selected",
+    "approve": "Approve",
+    "reject": "Reject",
+    "email": "Email",
+    "exportPdf": "Export PDF"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "Navbar": {
+    "login": "تسجيل الدخول"
+  },
+  "Auth": {
+    "welcomeBack": "مرحباً بعودتك",
+    "loginSub": "قم بالوصول إلى لوحة التحكم الخاصة بك لإدارة مؤسستك.",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "forgotPassword": "هل نسيت؟",
+    "loginButton": "تسجيل الدخول",
+    "or": "أو",
+    "continueWithGoogle": "المتابعة باستخدام جوجل",
+    "newToEdrithm": "جديد في EdRithm؟",
+    "createAccount": "إنشاء حساب",
+    "createAccountTitle": "أنشئ حسابك",
+    "signupSub": "ابدأ في إدارة مؤسستك باستخدام Edrithm",
+    "adminName": "اسم المدير",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "phoneOptional": "رقم الهاتف (اختياري)",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signupWithGoogle": "التسجيل باستخدام جوجل",
+    "passwordRequired": "مطلوب",
+    "allRightsReserved": "© {year} EDRITHM OPS. جميع الحقوق محفوظة.",
+    "support": "الدعم",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "builtFor": "© {year} EDRITHM OPS. BUILT FOR THE LUMINESCENT ARCHITECT.",
+    "PasswordStrength": {
+      "tooShort": "قصير جداً",
+      "tooShortDetail": "6 أحرف كحد أدنى",
+      "weak": "ضعيف",
+      "weakDetail": "استخدم مزيجاً من الأحرف الكبيرة والصغيرة",
+      "fair": "متوسط",
+      "fairDetail": "أضف رقماً للأمان",
+      "good": "جيد",
+      "goodDetail": "أضف رمزا خاصا",
+      "strong": "قوي",
+      "strongDetail": "كلمة المرور الخاصة بك آمنة"
+    },
+    "resetPasswordTitle": "إعادة تعيين كلمة المرور",
+    "resetPasswordSub": "أدخل بريدك الإلكتروني لتلقي تعليمات إعادة التعيين",
+    "sendResetLink": "إرسال رابط إعادة التعيين",
+    "backToLogin": "العودة لتسجيل الدخول",
+    "governance": "إدارة",
+    "systemStatusOptimal": "حالة النظام: مثالية",
+    "secureAES": "تشفير AES آمن 256 بت"
+  },
+  "Landing": {
+    "Hero": {
+      "tagline": "الجيل القادم من التحكم التعليمي",
+      "titlePart1": "كل التحكم.",
+      "titlePart2": "بدون أي",
+      "titlePart3": "تعقيد.",
+      "description": "قم بتمكين مؤسستك من خلال نظام إدارة المدارس الأكثر بديهية في العالم. أتمتة الحضور ودفاتر الدرجات واتصالات أولياء الأمور في لوحة تحكم واحدة موحدة ومستقبلية.",
+      "ctaDemo": "طلب عرض تجريبي",
+      "ctaCompare": "قارن الأنظمة",
+      "noSetupFees": "لا توجد رسوم إعداد",
+      "noItOverhead": "لا توجد تكاليف إضافية لتكنولوجيا المعلومات"
+    },
+    "OperationalComplexity": {
+      "tagline": "الذكاء التشغيلي",
+      "titlePart1": "التعقيد التشغيلي هو",
+      "titlePart2": "أكثر",
+      "titlePart3": "تكلفة",
+      "titlePart4": "مما تعتقد.",
+      "description": "المدارس الحديثة لا تعاني من نقص الأدوات - بل تعاني من كثرتها.",
+      "card1Title": "تعدد الأدوات",
+      "card1Badge": "70٪ وحدات غير مستخدمة",
+      "card1Quote": "يتم استخدام 3 وحدات فقط من أصل 10 يومياً.",
+      "card2Title": "تحليل سرعة العملية",
+      "card2Phase": "مرحلة التكامل",
+      "card2Warning": "مطلوب تدخل يدوي",
+      "card3Title": "تكلفة الاحتكاك",
+      "card3Description": "غالباً ما تتجاوز الديون التقنية المخفية وتكاليف التنسيق اليدوي رسوم الترخيص بمقدار",
+      "card3Multiplier": "3.5 ضعف.",
+      "maintenance": "الصيانة",
+      "subscription": "الاشتراك",
+      "evolutionTagline": "التطور",
+      "evolutionTitle": "حان الوقت لاستبدال التعقيد بالوضوح.",
+      "seeSolution": "رؤية الحل"
+    },
+    "Intelligence": {
+      "tagline": "ذكاء الوضوح",
+      "titlePart1": "مصمم من أجل",
+      "titlePart2": "الوضوح التشغيلي.",
+      "description": "تخلص من ضباب الاحتكاك الإداري. توفر مجموعتنا التحليلية رؤية فورية لكل جانب من جوانب مؤسستك.",
+      "enrollmentTitle": "التسجيل في",
+      "enrollmentGradient": "خطوات أقل",
+      "enrollmentDescription": "سير عمل رقمي مبسط يقلل من الاحتكاك للموظفين وأولياء الأمور. أتمتة جمع البيانات والتحقق منها في مسار واحد موحد من 3 خطوات.",
+      "exploreWorkflows": "استكشاف سير العمل",
+      "collect": "جمع",
+      "verify": "تحقق",
+      "confirm": "تأكيد",
+      "occupancyTagline": "الإشغال الحالي",
+      "occupancyValue": "84%",
+      "occupancyLabel": "الإشغال",
+      "liveFeed": "بث مباشر",
+      "capacityTitle": "وضوح",
+      "capacityGradient": "القدرة الاستيعابية",
+      "capacityDescription": "رؤى فورية حول استغلال الفصول وتخصيص الموارد. مراقبة معدلات الإشغال عبر مواقع متعددة مع تحليل الاتجاهات التنبؤية.",
+      "viewCapacitySuite": "عرض مجموعة القدرات",
+      "attendanceTitle": "شفافية",
+      "attendanceGradient": "الحضور",
+      "attendanceDescription": "تسجيل حضور تلقائي وإشعارات فورية لأولياء الأمور. حافظ على سجلات مثالية دون عناء يدوي وأدوات تقارير فورية.",
+      "analyzeMetrics": "تحليل المقاييس",
+      "dailyRate": "المعدل اليومي",
+      "baseline": "خط الأساس",
+      "stable": "مستقر"
+    },
+    "Philosophy": {
+      "tagline": "فلسفة الذكاء",
+      "titlePart1": "فلسفة مختلفة لـ",
+      "titlePart2": "إدارة المدرسة.",
+      "description": "ابتعد عن الاحتكاك الموروث. جرب نظامًا مصممًا للوضوح والسرعة والتميز الإداري الحديث.",
+      "legacyLabel": "النهج القديم",
+      "legacySubLabel": "أنظمة المدارس التقليدية",
+      "newStandardLabel": "المعيار الجديد",
+      "newStandardSubLabel": "منصتنا",
+      "cards": {
+        "legacy": [
+          {
+            "title": "التبعية لتكنولوجيا المعلومات",
+            "description": "يتطلب صيانة خادم مخصصة في الموقع وموظفي تكنولوجيا معلومات متخصصين."
+          },
+          {
+            "title": "العقود",
+            "description": "اتفاقيات مقيدة لسنوات متعددة مع رسوم خفية معقدة."
+          },
+          {
+            "title": "التعقيد",
+            "description": "منحنى تعليمي حاد يتطلب أسابيع من التدريب الاحترافي."
+          },
+          {
+            "title": "السرعة",
+            "description": "تؤدي قاعدة الأكواد القديمة إلى أوقات تحميل بطيئة وتوقف متكرر."
+          },
+          {
+            "title": "التكامل",
+            "description": "بيانات منعزلة. التصدير اليدوي مطلوب للتقارير الأساسية."
+          }
+        ],
+        "new": [
+          {
+            "title": "صيانة صفرية",
+            "description": "بنية تحتية سحابية كاملة. تتم التحديثات في الوقت الفعلي دون لمس الخادم."
+          },
+          {
+            "title": "حرية تامة",
+            "description": "فوترة شهرية مرنة. تسعير شفاف دون قيود على الأجهزة."
+          },
+          {
+            "title": "واجهة مستخدم بديهية",
+            "description": "مصمم للسهولة الإدارية. قم بتهيئة فريقك في أقل من ساعة."
+          },
+          {
+            "title": "تنفيذ فوري",
+            "description": "أوقات استجابة في أقل من ثانية عالميًا عبر حوسبة الحافة الموزعة."
+          },
+          {
+            "title": "نواة موحدة",
+            "description": "هندسة API مفتوحة. يتصل على الفور بنظامك الحالي."
+          }
+        ]
+      },
+      "ctaTitle": "القوة لا تعني بالضرورة",
+      "ctaComplement": "التعقيد.",
+      "ctaButton": "تجربة الفرق",
+      "securityAssurance": "ضمان أمني إداري عالي الثقة"
+    },
+    "Pricing": {
+      "tagline": "ذكاء التسعير",
+      "titlePart1": "تسعير بسيط",
+      "titlePart2": "وشفاف.",
+      "description": "اختر الخطة المثالية لمؤسستك. لا رسوم خفية، ولا مستويات معقدة. جرب الجيل القادم من إدارة البرمجيات كخدمة.",
+      "mostPopular": "الأكثر شهرة",
+      "perMonth": "/شهر",
+      "plans": {
+        "starter": {
+          "name": "البداية",
+          "price": "49 دولار",
+          "description": "مثالي للمعاهد الصغيرة التي تبدأ رحلتها الرقمية.",
+          "features": [
+            "حتى 100 طالب",
+            "لوحات معلومات قياسية",
+            "تتبع الحضور",
+            "دعم عبر البريد الإلكتروني"
+          ],
+          "buttonText": "ابدأ مجانًا"
+        },
+        "professional": {
+          "name": "الاحترافي",
+          "price": "99 دولار",
+          "description": "ميزات متقدمة للمجمعات التعليمية المتنامية.",
+          "features": [
+            "حتى 500 طالب",
+            "رؤى تسجيل بالذكاء الاصطناعي",
+            "دعم فروع متعددة",
+            "دعم الدردشة ذو الأولوية"
+          ],
+          "buttonText": "ابدأ الآن"
+        },
+        "enterprise": {
+          "name": "المؤسسات",
+          "price": "مخصص",
+          "description": "تحكم كامل لشبكات المؤسسات الكبيرة.",
+          "features": [
+            "طلاب غير محدودين",
+            "مجموعة كاملة للتنبؤ بالذكاء الاصطناعي",
+            "وصول مخصص لـ API",
+            "مدير حساب مخصص"
+          ],
+          "buttonText": "اتصل بالمبيعات"
+        }
+      }
+    }
+  },
+  "Statuses": {
+    "approved": "مقبول",
+    "pending": "قيد الانتظار",
+    "rejected": "مرفوض",
+    "active": "نشط",
+    "waitlisted": "قائمة الانتظار",
+    "underReview": "تحت المراجعة",
+    "inProgress": "قيد التنفيذ"
+  },
+  "Dashboard": {
+    "breadcrumb": "تحليلات المؤسسة / لوحة التحكم",
+    "titlePrefix": "نظرة",
+    "titleSuffix": "تنفيذية",
+    "academicYear": "العام الدراسي {year}",
+    "liveReport": "تقرير مباشر",
+    "healthSummaryTitle": "ملخص صحة المؤسسة",
+    "healthSummaryDesc": "الأداء العام للمؤسسة <status/>. تجاوزت التسجيلات التوقعات، بينما يظل الحضور مستقراً.",
+    "healthStatus": "مثالي",
+    "viewInsights": "عرض التفاصيل",
+    "metrics": {
+      "studentEngagement": "تفاعل الطلاب",
+      "teacherPerformance": "أداء المعلمين",
+      "attendanceConsistency": "اتساق الحضور",
+      "curriculumProgress": "تقدم المنهج",
+      "totalStudents": "إجمالي الطلاب",
+      "newEnrollments": "التسجيلات الجديدة",
+      "attendanceRate": "معدل الحضور",
+      "feeCollection": "تحصيل الرسوم",
+      "outstandingDues": "المستحقات المتأخرة",
+      "monthlyExpenses": "المصاريف الشهرية",
+      "activeStaff": "الموظفون النشطون",
+      "yoyGrowth": "النمو السنوي"
+    },
+    "metricStatus": {
+      "exceptional": "استثنائي",
+      "onTrack": "في المسار الصحيح",
+      "stable": "مستقر",
+      "onTarget": "في الهدف",
+      "high": "مرتفع",
+      "optimal": "مثالي"
+    }
+  },
+  "Students": {
+    "title": "إدارة الطلاب",
+    "subtitle": "نظرة عامة على الطلاب",
+    "enrolButton": "تسجيل طالب",
+    "stats": {
+      "total": "إجمالي الطلاب",
+      "attendance": "الحضور",
+      "newEnrolled": "المسجلون حديثاً",
+      "onLeave": "في إجازة"
+    },
+    "searchPlaceholder": "البحث بالاسم أو الرقم أو الفصل...",
+    "filters": {
+      "status": "الحالة: {value}",
+      "grade": "الفصل: {value}",
+      "all": "الكل"
+    },
+    "table": {
+      "headers": {
+        "studentInfo": "معلومات الطالب",
+        "gradeClass": "الفصل / المستوى",
+        "status": "الحالة",
+        "admitted": "تاريخ القبول",
+        "process": "العملية"
+      },
+      "capacity": {
+        "seatsLeft": "مقاعد متبقية",
+        "limited": "مقاعد محدودة",
+        "full": "مكتمل"
+      }
+    },
+    "details": {
+      "title": "تفاصيل الطالب",
+      "currentGrade": "الفصل الحالي",
+      "session": "الجلسة",
+      "morning": "صباحي",
+      "parentGuardian": "ولي الأمر / الوصي",
+      "dossier": "التحقق من الملف",
+      "verified": "تم التحقق",
+      "pending": "قيد الانتظار",
+      "history": "التاريخ الأكاديمي",
+      "confirmEnroll": "تأكيد إعادة التسجيل",
+      "archive": "أرشفة الملف"
+    }
+  },
+  "Sidebar": {
+    "campus": "الحرم الجامعي",
+    "students": {
+      "main": "الطلاب",
+      "directory": "دليل الطلاب",
+      "attendance": "الحضور",
+      "performance": "الأداء"
+    },
+    "teachers": {
+      "main": "المعلمون والموظفون",
+      "directory": "دليل المعلمين",
+      "staffDirectory": "دليل الموظفين",
+      "attendance": "الحضور",
+      "reviews": "تقييم الأداء",
+      "salary": "تتبع الرواتب",
+      "receipts": "تحميل الإيصالات"
+    },
+    "academics": {
+      "main": "الأكاديميات",
+      "classes": "الفصول والأقسام",
+      "subjects": "المواد الدراسية",
+      "timetable": "الجدول الزمني",
+      "exams": "الامتحانات",
+      "results": "النتائج",
+      "planner": "مخطط المنهج"
+    },
+    "finance": {
+      "main": "المالية",
+      "fees": "سجلات الرسوم",
+      "dues": "تتبع المستحقات",
+      "expenses": "تتبع المصاريف",
+      "scholarships": "المنح / الخصومات",
+      "summary": "الملخص المالي"
+    },
+    "reports": {
+      "main": "التقارير",
+      "students": "تقارير الطلاب",
+      "academics": "التقارير الأكاديمية",
+      "finance": "التقارير المالية",
+      "staff": "تقارير الموظفين",
+      "custom": "تقارير مخصصة",
+      "analytics": "لوحة تحكم التحليلات"
+    },
+    "communication": {
+      "main": "الاتصالات",
+      "announcements": "الإعلانات",
+      "notices": "التنبيهات",
+      "messages": "سجلات الرسائل",
+      "logs": "سجلات البريد/الرسائل"
+    },
+    "branches": {
+      "main": "إدارة الفروع",
+      "list": "قائمة الفروع",
+      "kpis": "مؤشرات أداء الفروع",
+      "comparison": "مقارنة الفروع"
+    },
+    "administration": {
+      "main": "الإدارة",
+      "roles": "الأدوار والصلاحيات",
+      "settings": "الإعدادات",
+      "audit": "سجلات المراجعة",
+      "data": "استيراد/تصدير البيانات",
+      "integrations": "التكاملات"
+    },
+    "profile": {
+      "myProfile": "ملفي الشخصي",
+      "settings": "الإعدادات",
+      "logout": "تسجيل الخروج"
+    },
+    "quickActions": {
+      "title": "إجراءات سريعة",
+      "addStudent": "إضافة طالب",
+      "addTeacher": "إضافة معلم",
+      "recordFee": "تسجيل رسوم",
+      "createAnnouncement": "إنشاء إعلان"
+    }
+  },
+  "BulkActions": {
+    "selected": "{count} تم اختيارهم",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "email": "بريد إلكتروني",
+    "exportPdf": "تصدير PDF"
+  }
+}
