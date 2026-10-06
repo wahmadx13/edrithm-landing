@@ -23,3 +23,5 @@ ios/Pods/
 Thumbs.db
 *.tsbuildinfo
 next-env.d.ts
+
+sbom.cdx.json

@@ -1,0 +1,27 @@
+{
+  "reviewedBy": "ziad-infra",
+  "reviewedOn": "2026-10-06",
+  "policy": "Every dependency with a lifecycle install script is listed with what the script does. A new name fails check:supply-chain until reviewed. Version bumps of listed names are re-read during the dependency update review.",
+  "packages": {
+    "@parcel/watcher": {
+      "via": "next-intl",
+      "reason": "install runs node-gyp rebuild only when npm_config_build_from_source=true; otherwise a no-op and prebuilt optional binaries are used."
+    },
+    "@swc/core": {
+      "via": "next-intl",
+      "reason": "postinstall validates the native binding; if none loads it runs npm install --no-save of @swc/wasm at the same version from the configured registry."
+    },
+    "fsevents": {
+      "via": "optional macOS file watching",
+      "reason": "Native macOS module built at install; skipped on Linux CI and Windows."
+    },
+    "msw": {
+      "via": "shadcn, vitest",
+      "reason": "postinstall copies the service worker only when package.json declares msw.workerDirectory; this repository declares none, so it is a no-op."
+    },
+    "unrs-resolver": {
+      "via": "eslint-config-next",
+      "reason": "postinstall via napi-postinstall verifies the platform binding and may install the matching binding package from the registry as a fallback."
+    }
+  }
+}

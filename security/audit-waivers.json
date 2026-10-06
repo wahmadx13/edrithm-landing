@@ -1,0 +1,14 @@
+{
+  "policy": "High and critical npm audit advisories fail check:supply-chain unless waived here. Every waiver names an owner, a reason and an expiry at most 90 days ahead; devOnly waivers fail if the advisory reaches runtime dependencies. Waivers require independent security review.",
+  "waivers": [
+    {
+      "advisory": "GHSA-vfj7-8cjw-p6xm",
+      "package": "braces",
+      "severity": "high",
+      "devOnly": true,
+      "owner": "ziad-infra",
+      "expires": "2026-11-04",
+      "reason": "No patched braces exists (latest 3.0.3 is in range <=3.0.3). Reached only through development tooling: shadcn CLI and eslint-config-next via fast-glob and micromatch, which expand repository-authored glob patterns, never request input. npm audit's suggested fixes are major downgrades. Re-evaluate on expiry or when a patched release ships."
+    }
+  ]
+}
