@@ -1,27 +1,49 @@
 {
   "reviewedBy": "ziad-infra",
   "reviewedOn": "2026-10-06",
-  "policy": "Every dependency with a lifecycle install script is listed with what the script does. A new name fails check:supply-chain until reviewed. Version bumps of listed names are re-read during the dependency update review.",
+  "policy": "Every dependency with a lifecycle install script is listed with its dependency class (production or development, as the lockfile records it), the exact versions whose script was read, and what the script does. A new name, a class change or an unreviewed version fails check:supply-chain until reviewed. Packages whose install script can fall back to fetching a native binding name a loadCheck module that check:installed must be able to load after npm ci.",
   "packages": {
     "@parcel/watcher": {
+      "class": "production",
+      "versions": [
+        "2.6.0"
+      ],
       "via": "next-intl",
       "reason": "install runs node-gyp rebuild only when npm_config_build_from_source=true; otherwise a no-op and prebuilt optional binaries are used."
     },
     "@swc/core": {
+      "class": "production",
+      "versions": [
+        "1.16.13"
+      ],
       "via": "next-intl",
-      "reason": "postinstall validates the native binding; if none loads it runs npm install --no-save of @swc/wasm at the same version from the configured registry."
+      "reason": "postinstall validates the native binding; if none loads it runs npm install --no-save of @swc/wasm at the same version from the configured registry.",
+      "loadCheck": "@swc/core"
     },
     "fsevents": {
+      "class": "development",
+      "versions": [
+        "2.3.3"
+      ],
       "via": "optional macOS file watching",
       "reason": "Native macOS module built at install; skipped on Linux CI and Windows."
     },
     "msw": {
+      "class": "development",
+      "versions": [
+        "2.15.0"
+      ],
       "via": "shadcn, vitest",
       "reason": "postinstall copies the service worker only when package.json declares msw.workerDirectory; this repository declares none, so it is a no-op."
     },
     "unrs-resolver": {
+      "class": "development",
+      "versions": [
+        "1.12.2"
+      ],
       "via": "eslint-config-next",
-      "reason": "postinstall via napi-postinstall verifies the platform binding and may install the matching binding package from the registry as a fallback."
+      "reason": "postinstall via napi-postinstall verifies the platform binding and may install the matching binding package from the registry as a fallback.",
+      "loadCheck": "unrs-resolver"
     }
   }
 }

@@ -1,31 +1,70 @@
 import { spawnSync } from 'node:child_process';
 import { readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, relative } from 'node:path';
 import {
   evaluateAudit,
   evaluateInstallScripts,
   findInstallViolations,
   findUnpinnedActions,
+  localActionReferences,
 } from './supply-chain-policy.mjs';
 
 const root = process.cwd();
 const workflowDir = join(root, '.github', 'workflows');
+const SKIPPED_EVERYWHERE = new Set(['node_modules', '.git']);
+const SKIPPED_AT_ROOT = new Set(['.next', 'dist', 'build', 'coverage', '.expo']);
 
 function readJson(path) {
   return JSON.parse(readFileSync(join(root, path), 'utf8'));
 }
 
+function readEntry(path) {
+  return { name: relative(root, path).replace(/\\/g, '/'), text: readFileSync(path, 'utf8') };
+}
+
 function workflowFiles() {
   return readdirSync(workflowDir)
     .filter((name) => /\.ya?ml$/.test(name))
-    .map((name) => ({ name, text: readFileSync(join(workflowDir, name), 'utf8') }));
+    .map((name) => readEntry(join(workflowDir, name)));
+}
+
+function isSkipped(directory, name) {
+  return SKIPPED_EVERYWHERE.has(name) || (directory === root && SKIPPED_AT_ROOT.has(name));
+}
+
+function actionFiles(directory) {
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    if (entry.isDirectory()) return isSkipped(directory, entry.name) ? [] : actionFiles(join(directory, entry.name));
+    return /^action\.ya?ml$/.test(entry.name) ? [readEntry(join(directory, entry.name))] : [];
+  });
+}
+
+function unresolvedLocalActions(files, scanned) {
+  return files.flatMap(({ name, text }) =>
+    localActionReferences(text).flatMap(({ line, reference }) => {
+      const target = reference.slice(2).replace(/\/+$/, '');
+      const found = ['action.yml', 'action.yaml'].some((file) => scanned.has(`${target}/${file}`));
+      return found ? [] : [`${name}:${line} local action ${reference} has no scanned action.yml or action.yaml`];
+    }),
+  );
+}
+
+function checkFile({ name, text }, options) {
+  return [
+    ...findUnpinnedActions(text).map(({ line, reference }) => `${name}:${line} action not pinned by commit SHA: ${reference}`),
+    ...findInstallViolations(text, options).map((message) => `${name}: ${message}`),
+  ];
 }
 
 function checkWorkflows() {
-  return workflowFiles().flatMap(({ name, text }) => [
-    ...findUnpinnedActions(text).map(({ line, reference }) => `${name}:${line} action not pinned by commit SHA: ${reference}`),
-    ...findInstallViolations(text).map((message) => `${name}: ${message}`),
-  ]);
+  const workflows = workflowFiles();
+  const actions = actionFiles(root);
+  const scanned = new Set(actions.map(({ name }) => name));
+  return [
+    ...workflows.flatMap((file) => checkFile(file, { requireCi: true })),
+    ...actions.flatMap((file) => checkFile(file, { requireCi: false })),
+    ...unresolvedLocalActions([...workflows, ...actions], scanned),
+  ];
 }
 
 function checkLockfile() {
