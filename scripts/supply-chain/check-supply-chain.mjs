@@ -8,11 +8,10 @@ import {
   findUnpinnedActions,
   localActionReferences,
 } from './supply-chain-policy.mjs';
+import { actionFiles } from './walkers.mjs';
 
 const root = process.cwd();
 const workflowDir = join(root, '.github', 'workflows');
-const SKIPPED_EVERYWHERE = new Set(['node_modules', '.git']);
-const SKIPPED_AT_ROOT = new Set(['.next', 'dist', 'build', 'coverage', '.expo']);
 
 function readJson(path) {
   return JSON.parse(readFileSync(join(root, path), 'utf8'));
@@ -26,17 +25,6 @@ function workflowFiles() {
   return readdirSync(workflowDir)
     .filter((name) => /\.ya?ml$/.test(name))
     .map((name) => readEntry(join(workflowDir, name)));
-}
-
-function isSkipped(directory, name) {
-  return SKIPPED_EVERYWHERE.has(name) || (directory === root && SKIPPED_AT_ROOT.has(name));
-}
-
-function actionFiles(directory) {
-  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    if (entry.isDirectory()) return isSkipped(directory, entry.name) ? [] : actionFiles(join(directory, entry.name));
-    return /^action\.ya?ml$/.test(entry.name) ? [readEntry(join(directory, entry.name))] : [];
-  });
 }
 
 function unresolvedLocalActions(files, scanned) {
