@@ -1,0 +1,24 @@
+#!/bin/sh
+# ED-010a: fast checks before every commit. Enable once per clone: git config core.hooksPath .githooks
+# Early feedback only. The Verify workflow and the D-084 local run on a clean checkout stay the binding gate.
+# The checks read the working tree, so unstaged edits are checked too. Never bypass a hook (ED-015 §3).
+set -u
+
+fail=0
+check() {
+  rule=$1
+  shift
+  if ! "$@"; then
+    printf 'pre-commit: blocked by %s (%s)\n' "$rule" "$*" >&2
+    fail=1
+  fi
+}
+
+check 'ED-091 invisible and bidi characters' npm run --silent check:invisible
+check 'ED-015 §2 lint (ESLint)' npm run --silent lint
+check 'ED-006 §2 types (tsc --noEmit)' npm run --silent typecheck
+
+if [ "$fail" -ne 0 ]; then
+  printf 'pre-commit: fix the findings above; the same checks fail the Verify workflow.\n' >&2
+  exit 1
+fi

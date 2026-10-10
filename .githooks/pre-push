@@ -1,0 +1,11 @@
+#!/bin/sh
+# ED-010a: the full local verify before a push (lint, types, tests, build). Enable once per clone:
+# git config core.hooksPath .githooks
+# Early feedback only. The Verify workflow and the D-084 local run on a clean checkout stay the binding gate.
+# Never bypass a hook (ED-015 §3).
+set -u
+
+if ! npm run --silent verify; then
+  printf 'pre-push: blocked by ED-015 §3 pre-push (npm run verify); the same checks fail the Verify workflow.\n' >&2
+  exit 1
+fi

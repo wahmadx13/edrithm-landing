@@ -10,6 +10,14 @@ The locked Tangerine source and compiler are in design-system/tangerine. This re
 
 The inherited prototype components and global stylesheet are not yet migrated fully to Tangerine. Extraction does not certify design acceptance, backend connectivity, accessibility, or production readiness.
 
+## Git hooks
+
+The hooks are version-controlled in .githooks and need no extra package. Enable them once per clone:
+
+    git config core.hooksPath .githooks
+
+Before each commit, the pre-commit hook runs check:invisible, lint and typecheck. Before each push, the pre-push hook runs npm run verify. A failure names the rule and stops the commit or push. The hooks give early feedback only: the Verify workflow, run on a clean checkout, is the binding gate. Never bypass a hook; if a check is wrong, fix the check in its own commit.
+
 ## Configuration
 
 NEXT_PUBLIC_APP_URL identifies the institutional frontend origin. It is not a credential. Never put private secrets in NEXT_PUBLIC variables.

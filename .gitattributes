@@ -1,0 +1,2 @@
+# ED-010a: hooks must run under /bin/sh on every platform, so they are always checked out with LF.
+.githooks/** text eol=lf
