@@ -18,6 +18,7 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm run check:supply-chain
+      - run: npm run check:invisible
       - run: npm ci
       - run: npm run check:installed
       - run: npm run verify

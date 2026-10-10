@@ -14,6 +14,7 @@
     "check:tokens": "node design-system/tangerine/build.mjs --check && node design-system/tangerine/check.mjs",
     "verify": "npm run lint && npm run typecheck && npm test && npm run build",
     "check:supply-chain": "node scripts/supply-chain/check-supply-chain.mjs",
+    "check:invisible": "node scripts/gates/check-invisible-characters.mjs",
     "sbom": "npm sbom --sbom-format cyclonedx --sbom-type application > sbom.cdx.json",
     "check:installed": "node scripts/supply-chain/check-installed.mjs"
   },
