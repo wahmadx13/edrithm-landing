@@ -28,14 +28,6 @@
       "via": "optional macOS file watching",
       "reason": "Native macOS module built at install; skipped on Linux CI and Windows."
     },
-    "msw": {
-      "class": "development",
-      "versions": [
-        "2.15.0"
-      ],
-      "via": "shadcn, vitest",
-      "reason": "postinstall copies the service worker only when package.json declares msw.workerDirectory; this repository declares none, so it is a no-op."
-    },
     "unrs-resolver": {
       "class": "development",
       "versions": [
