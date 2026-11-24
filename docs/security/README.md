@@ -54,10 +54,9 @@ CI also publishes a CycloneDX SBOM (`npm run sbom`) as a build artifact, and run
 weekly so new advisories surface without a push. Until a release process exists,
 the SBOM from each CI run on main is the release SBOM.
 
-Dependabot pull requests for npm and GitHub Actions are automated proposals only
-and are never merged on GitHub. The repository's writer applies the update directly
-on main through normal review and checks, then closes the bot pull request with
-the commit reference.
+Dependency updates are made by hand, directly on main, after the repository's checks
+pass. Dependabot version updates were removed on 2026-11-24; the weekly Verify run
+above is the standing advisory check.
 
 Limits: the gate catches accidental drift, not a hostile workflow author, who
 can always write a step it does not parse. package.json scripts are not inspected,
